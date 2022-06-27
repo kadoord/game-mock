@@ -1,0 +1,298 @@
+* {
+    background: #212539;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+.wrapper{
+    width: 100%;
+}
+
+.pagenum{
+    position: absolute;
+    left: 85%;
+    top: -24%;
+}
+
+.round{
+    top: -2%;
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.form button{
+    cursor: pointer;
+}
+
+.names{
+    font-family: 'Montserrat SemiBold';
+    font-style: normal;
+    color: #D9A4FF;
+}
+
+.btn{
+    border: 1px solid #EE6093FF;
+    border-radius: 80px;
+    background: linear-gradient(270deg, #AB65DC 0%, #EE6093 100%);
+    margin: 20px;
+    width: 250px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: 'Montserrat SemiBold';
+    font-weight: 600;
+}
+.btn2{
+    border: 1px solid #EE6093FF;
+    border-radius: 80px;
+    margin: 20px;
+    width: 250px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: 'Montserrat SemiBold';
+    font-weight: 600;
+}
+
+.round2{
+    position: absolute;
+    right: 5%;
+    top: 80%;
+}
+
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+
+form{
+    position: relative;
+    display: block;
+}
+form:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: 1;
+    background: rgba(212, 219, 255, 0.28);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.25);
+}
+
+form .form-inner{
+    flex-direction: column;
+     position: relative;
+    /* display: block; */
+    padding: 30px;
+    z-index: 2;
+    display: flex;
+}
+
+form .form-inner h2{
+    color: #888;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+form .form-inner .error{
+    color: #ff1af8;
+}
+
+form .form-inner .form-group{
+    display: block;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.form-inner .form-group label{
+    display: block;
+    font-size: 15px;
+    color: #ded2d2;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+.form-inner .form-group:focus-within label{
+    color: #D9A4FF;
+}
+
+
+form .form-inner .form-group input{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.4s;
+    color: white;
+    font-size: 15px;
+}
+
+form .form-inner .form-group input:focus{
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+form .form-inner input[type="submit"],
+.welcome button{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #67368a;
+    font-weight: 800;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+form .form-inner input[type="submit"],
+.welcome button:hover{
+    background-color: #ff00a5;
+}
+
+.welcome{
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 30px;
+}
+.welcome h2{
+    color: #b229ff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.Registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+
+.rating{
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating h2{
+    color: #FFFFFF;
+}
+
+.number{
+    position: absolute;
+    left: 80%;
+    top: 10%;
+}
+
+.radiosec{
+    position: absolute;
+    top: 1%;
+}
+
+.icons{
+    margin-top: 50px;
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+}
+.icons div{
+    cursor: pointer;
+    margin: 25px;
+}
+
+
+.line{
+    top: 1%;
+    background-color: #AB65DC;
+    width: 1px;
+    height: 600px;
+    position: absolute;
+    left: 8%;
+}
+.round1{
+    position: absolute;
+    top: 18%;
+    left: 11%;
+}
+
+.cat{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(180deg, rgba(212, 219, 255, 0.28) 0%, rgba(77, 81, 102, 0.28) 100%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(27px);
+    border-radius: 52px;
+}
+
+.text{
+    position: relative;
+}
+
+.inner-text{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.25);
+    background: linear-gradient(180deg, rgba(212, 219, 255, 0.28) 0%, rgba(77, 81, 102, 0.28) 100%);
+    position: absolute;
+    left: 15%;
+    bottom: -66px;
+    color: white;
+}
+
+.second{
+    top: 30%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(180deg, rgba(212, 219, 255, 0.28) 0%, rgba(77, 81, 102, 0.28) 100%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(27px);
+    border-radius: 52px;
+}
+
+
+.third{
+    top: 30%;
+    left: 61%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(180deg, rgba(212, 219, 255, 0.28) 0%, rgba(77, 81, 102, 0.28) 100%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 1px 2px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(27px);
+    border-radius: 52px;
+}
+
+
+
+
+
+
+
